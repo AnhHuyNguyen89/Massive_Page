@@ -1,0 +1,41 @@
+.portfolio{
+    padding-bottom: 20px;
+    .container{
+        .nav-tabs{
+            width: 60%;
+            margin: 0 auto;
+        }
+        .tab-pane{
+            img{
+                width: 100%;
+            }
+            .port_item{
+                position: relative;
+                
+                .text_lightbox{
+                    padding: 10px;
+                    position: absolute;
+                    top: 10%;                    
+                    width: 80%;                    
+                    background-color: rgba($color: white, $alpha: .5);
+                    opacity: .8;
+                    bottom: 10%;
+                    left: 10%;
+                    right: 10%;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                    opacity: 0;
+                }
+                &:hover{
+                    .text_lightbox{
+                        opacity: 1;
+                    }
+                }
+                
+                
+            }
+        }
+    }
+}

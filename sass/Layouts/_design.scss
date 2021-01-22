@@ -1,0 +1,55 @@
+.design{
+    .col-12{
+        h2{
+            letter-spacing: 2px;
+            font-weight: $fw-0;
+        }
+        p{
+            color: $color-gray-0;
+            margin: 0 auto;
+            line-height: 25px;
+            padding-top: 30px;
+        }
+        margin-bottom: 100px;
+    }
+    padding: 50px 0;
+    .design_title{
+        position: relative;
+        border: 1px solid $color-gray-1;
+        border-radius: 4px;
+        padding: 30px;
+        margin: 0 10px;
+        h3{
+            font-size: $fs-2;
+            line-height: 1.5;
+            color: #333;
+            padding-top: 30px;
+        }
+        p{
+            font-size: $fs-0;
+            font-weight: $fw-1;
+            color: $color-gray-0;
+        }
+        .design_icon{
+            position: absolute;
+            top: -10%;
+            left: 5%;
+            span{            
+            background-color: black;
+            padding: 20px;
+            line-height: 30px;
+            border-radius: 5px;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+           
+            }
+            &:hover{
+                span{
+                    background-color: $color-orange-0;
+                }
+                
+            }
+        }        
+    }
+}

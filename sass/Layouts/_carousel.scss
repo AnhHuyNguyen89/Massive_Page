@@ -1,0 +1,16 @@
+.carousel{
+    position: relative;
+    .owl-carousel{
+        .item{
+            
+            .bs_info{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform: translate(-100%,-50%);
+                display: block;
+                transition: all 1s;                
+            }           
+        }        
+    }
+}

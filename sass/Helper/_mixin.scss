@@ -1,0 +1,11 @@
+@mixin styleButton($bg-color, $color, $border, $pd-y, $pd-x) {
+    background-color: $bg-color;
+    color: $color;
+    border: 1px solid $border;
+    padding: $pd-y $pd-x;
+  }
+  @mixin styleButtonHover($color, $bg-color, $br-color) {
+    color: $color;
+    background-color: $bg-color;
+    border-color: $br-color;
+  }

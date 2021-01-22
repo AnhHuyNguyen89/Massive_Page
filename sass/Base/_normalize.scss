@@ -1,0 +1,53 @@
+.owl-prev {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  bottom: 120px;
+  width: 30%;
+  background-color: transparent !important;
+  span {
+    color: transparent;
+  }
+  &:hover {
+    cursor: url("https://cdn3.iconfinder.com/data/icons/modifiers-add-on-2/48/v-24-512.png"),
+      auto;
+  }
+}
+.owl-next {
+  position: absolute;
+  top: 180px;
+  right: 0;
+  bottom: 120px;
+  width: 30%;
+  background-color: transparent !important;
+  span {
+    color: transparent;
+  }
+}
+.owl-dots {
+  position: absolute;
+  left: 48%;
+  bottom: 20px;
+    .owl-dot{
+        span {
+            border: 1px solid white;
+            // background: transparent !important;            
+        }
+        // &:hover{
+        //     span{
+        //         background-color: white !important;
+        //     }
+        // }
+        // .active{
+        //     span{
+        //         background-color: white !important;
+        //     }
+        // }     
+        
+    }
+}
+.owl-nav{
+  button{
+    outline: none;
+  }
+}

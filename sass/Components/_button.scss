@@ -1,0 +1,18 @@
+.msk-btnWhite{
+    @include styleButton(transparent, $color-black-1,$color-black-1,$pd-1, $pd-2);
+    &:hover{ 
+        @include styleButtonHover ($color-white-0,$color-black-1,$color-black-1);
+    }
+}
+.msk-btnBlack{
+    @include styleButton($color-black-1, $color-white-0,$color-black-1,$pd-1, $pd-2);
+    &:hover{ 
+        @include styleButtonHover ($color-white-0,$color-orange-0,$color-orange-0);
+    }
+}
+.msk-btnGray{
+    @include styleButton($color-grey-1, $color-white-0,$color-black-1,$pd-1, $pd-2);
+    &:hover{ 
+        @include styleButtonHover ($color-white-0,$color-orange-0,$color-orange-0);
+    }
+}

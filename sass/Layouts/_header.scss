@@ -1,0 +1,29 @@
+header{
+    width: 100%;
+   .row{       
+       .col-7{
+           .navbar{
+               ul{
+                   li{
+                       a{
+                           font-size: $fs-1 ;
+                           color: $color-black-0;
+                           padding:0 $pd-0;
+                           display: inline-block;                           
+                           &:focus,&:hover{
+                               color:$color-orange-0 ;
+                           }
+                           line-height: 100px;
+                           outline: 0;
+                        }                    
+                   }
+               }              
+           }
+       }
+       justify-content: space-between;
+       align-items: center;      
+   } 
+   background-color: transparent;
+   position: fixed;
+   z-index: 1000;
+}
